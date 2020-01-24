@@ -85,5 +85,28 @@
 	fill:#F9A541;
 	transition: fill 0.5s;
 }
+.bow{
+	width:100px;
+}
+.bow:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.bow:hover .cls-4{
+	fill:#D68922;
+	transition: fill 0.5s;
+}
+.bow:hover .cls-6{
+	fill:#F9A541;
+	transition: fill 0.5s;
+}
+.bow:hover .cls-7{
+	fill:#CEC5BA;
+	transition: fill 0.5s;
+}
+.bow:hover .cls-8{
+	fill:#E2DDD7;
+	transition: fill 0.5s;
+}
 
 
