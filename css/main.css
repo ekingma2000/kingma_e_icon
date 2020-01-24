@@ -37,35 +37,35 @@
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
-.bomb:hover .cls-5{
+.bomb:hover .bombBase{
 	fill:#726D67;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-6{
+.bomb:hover .bombBaseH{
 	fill:#938682;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-7{
+.bomb:hover .bombBaseS{
 	fill:#3F3C38;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-8{
+.bomb:hover .bombRope{
 	fill:#D68922;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-9{
+.bomb:hover .bombRopeH{
 	fill:#F9A541;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-11{
+.bomb:hover .bombFire{
 	fill:#E5361F;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-12{
+.bomb:hover .bombFireH{
 	fill:#FC3A06;
 	transition: fill 0.5s;
 }
-.bomb:hover .cls-13{
+.bomb:hover .bombFireS{
 	fill:#871D08;
 	transition: fill 0.5s;
 }
@@ -78,11 +78,11 @@
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
-.boomer:hover .cls-5{
+.boomer:hover .boomerBase{
 	fill:#D68922;
 	transition: fill 0.5s;
 }
-.boomer:hover .cls-6{
+.boomer:hover .boomerH{
 	fill:#F9A541;
 	transition: fill 0.5s;
 }
@@ -94,19 +94,19 @@
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
-.bow:hover .cls-4{
+.bow:hover .bowBase{
 	fill:#D68922;
 	transition: fill 0.5s;
 }
-.bow:hover .cls-6{
+.bow:hover .bowBaseH{
 	fill:#F9A541;
 	transition: fill 0.5s;
 }
-.bow:hover .cls-7{
+.bow:hover .bowHead{
 	fill:#CEC5BA;
 	transition: fill 0.5s;
 }
-.bow:hover .cls-8{
+.bow:hover .bowHeadH{
 	fill:#E2DDD7;
 	transition: fill 0.5s;
 }
@@ -118,19 +118,19 @@
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
-.cap:hover .cls-7{
+.cap:hover .capHole{
 	fill:#102D09;
 	transition: fill 0.5s;
 }
-.cap:hover .cls-5{
+.cap:hover .capBase{
 	fill:#44A333;
 	transition: fill 0.5s;
 }
-.cap:hover .cls-6{
+.cap:hover .capBaseH{
 	fill:#63B74B;
 	transition: fill 0.5s;
 }
-.cap:hover .cls-4{
+.cap:hover .capTail{
 	fill:#3D912C;
 	transition: fill 0.5s;
 }/*Fire interactibity*/ 
@@ -141,23 +141,170 @@
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
-.fire:hover .cls-8{
+.fire:hover .fireBase{
 	fill:#E5361F;
 	transition: fill 0.5s;
 }
-.fire:hover .cls-5{
+.fire:hover .fireStick{
 	fill:#D68922;
 	transition: fill 0.5s;
 }
-.fire:hover .cls-9{
+.fire:hover .fireBaseH{
 	fill:#FC3A06;
 	transition: fill 0.5s;
-}.fire:hover .cls-10{
+}.fire:hover .fireBaseS{
 	fill:#871D08;
 	transition: fill 0.5s;
 }
-.fire:hover .cls-7{
+.fire:hover .fireStickH{
 	fill:#F9A541;
 	transition: fill 0.5s;
 }
+.hammer{
+	width: 100px;
+}
+.hammer:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.hammer:hover .hammerBase{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hammer:hover .hammerBaseH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook{
+	width: 100px;
+}
+.hook:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.hook:hover .hookHandle{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookHandleH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookBody{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookBodyH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookHead{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookHeadH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookBodyS{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.hook:hover .hookHeadS{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.ice{
+	width: 100px;
+}
+.ice:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.ice:hover .iceStick{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.ice:hover .iceStickH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.ice:hover .iceBase{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.ice:hover .iceBaseS{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.ice:hover .iceBaseH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion{
+	width: 100px;
+}
+.potion:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.potion:hover .potionBase{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion:hover .potionBaseH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion:hover .potionBaseS{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion:hover .potionBottle{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion:hover .potionBottleH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion:hover .potionCork{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.potion:hover .potionCorkH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.sword{
+	width: 100px;
+}
+.sword:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.sword:hover .swordBlade{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+.sword:hover .swordBladeS{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+
+.sword:hover .swordHandle{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+
+.sword:hover .swordHandleH{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+
+.sword:hover .swordHandleS{
+	fill:#102D09;
+	transition: fill 0.5s;
+}
+
 
