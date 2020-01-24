@@ -1,5 +1,6 @@
 @charset "UFT-8";
 
+/*Web Page design*/
 .title{
 	text-align: center;
 	font-size: 60px;
@@ -28,8 +29,32 @@
 	flex-direction: row;
 	margin-left: 30px;
 }
-#BombS:hover {
-	fill: red;
+/*Bomb interactivity*/
+.bomb{
+	width: 100px;
 }
-
+.bomb:hover .cls-5{
+	fill:#726D67;
+}
+.bomb:hover .cls-6{
+	fill:#938682;
+}
+.bomb:hover .cls-7{
+	fill:#3F3C38;
+}
+.bomb:hover .cls-8{
+	fill:#D68922;
+}
+.bomb:hover .cls-9{
+	fill:#F9A541;
+}
+.bomb:hover .cls-11{
+	fill:#E5361F;
+}
+.bomb:hover .cls-12{
+	fill:#FC3A06;
+}
+.bomb:hover .cls-13{
+	fill:#871D08;
+}
 
