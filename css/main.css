@@ -69,5 +69,21 @@
 	fill:#871D08;
 	transition: fill 0.5s;
 }
+.boomer{
+	width:110px;
+	margin-top: 3px;
+}
+.boomer:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
+.boomer:hover .cls-5{
+	fill:#D68922;
+	transition: fill 0.5s;
+}
+.boomer:hover .cls-6{
+	fill:#F9A541;
+	transition: fill 0.5s;
+}
 
 
