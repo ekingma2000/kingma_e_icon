@@ -1,15 +1,14 @@
 (() => {
 // this is a module pattern, also called iife
-  const SVGs = document.querySelector('container');
 
-function toggleSelected() {
-//we want some kind of indecator
-//that someone has selected an icon
+allSVGs = document.querySelectorAll(".container");
 
-  debugger;
-}
+function logSVG(){
+    console.log(this.id);
+  }
 
 
 //set up our triggers here
-SVGs.addEventListener('click', toggleSelected);
+allSVGs.forEach(item => item.addEventListener("click", logSVG));
+
 })();
