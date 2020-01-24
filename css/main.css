@@ -33,28 +33,41 @@
 .bomb{
 	width: 100px;
 }
+.bomb:hover{
+	transform: scale(1.1);
+	transition: transform 0.75s;
+}
 .bomb:hover .cls-5{
 	fill:#726D67;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-6{
 	fill:#938682;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-7{
 	fill:#3F3C38;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-8{
 	fill:#D68922;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-9{
 	fill:#F9A541;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-11{
 	fill:#E5361F;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-12{
 	fill:#FC3A06;
+	transition: fill 0.5s;
 }
 .bomb:hover .cls-13{
 	fill:#871D08;
+	transition: fill 0.5s;
 }
+
 
