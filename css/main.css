@@ -28,5 +28,8 @@
 	flex-direction: row;
 	margin-left: 30px;
 }
+#BombS:hover {
+	fill: red;
+}
 
 
