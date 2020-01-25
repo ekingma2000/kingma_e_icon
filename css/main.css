@@ -1,10 +1,11 @@
+
 @charset "UFT-8";
 
 /*Web Page design*/
 .title{
 	text-align: center;
 	font-size: 60px;
-	background-color: palegreen;
+	background-color: #3D912C;
 }
 
 .paragraph{
@@ -13,14 +14,13 @@
 	width:1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 150px;
+	margin-top: 140px;
 	margin-bottom: 100px;
 }
 
 .container{
 	display: flex;
 	justify-content: space-between;
-  	background-color: red;
 }
 
 
@@ -32,6 +32,7 @@
 /*Bomb interactivity*/
 .bomb{
 	width: 100px;
+	margin-top: 15px;
 }
 .bomb:hover{
 	transform: scale(1.1);
@@ -72,7 +73,7 @@
 /*boomerang interactivity*/
 .boomer{
 	width:110px;
-	margin-top: 3px;
+	margin-top: 17px;
 }
 .boomer:hover{
 	transform: scale(1.1);
@@ -89,6 +90,7 @@
 /*Bow interactivity*/
 .bow{
 	width:100px;
+	margin-top: 5px;
 }
 .bow:hover{
 	transform: scale(1.1);
@@ -113,6 +115,7 @@
 /*Cap interactivity*/
 .cap {
 	width: 100px;
+	margin-top: 18px;
 }
 .cap:hover{
 	transform: scale(1.1);
@@ -162,56 +165,58 @@
 }
 .hammer{
 	width: 100px;
+	margin-top: 20px;
 }
 .hammer:hover{
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
 .hammer:hover .hammerBase{
-	fill:#102D09;
+	fill:#D68922;
 	transition: fill 0.5s;
 }
 .hammer:hover .hammerBaseH{
-	fill:#102D09;
+	fill:#F9A541;
 	transition: fill 0.5s;
 }
 .hook{
 	width: 100px;
+	margin-top: 20px;
 }
 .hook:hover{
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
 .hook:hover .hookHandle{
-	fill:#102D09;
+	fill:#D68922;
 	transition: fill 0.5s;
 }
 .hook:hover .hookHandleH{
-	fill:#102D09;
+	fill:#F9A541;
 	transition: fill 0.5s;
 }
 .hook:hover .hookBody{
-	fill:#102D09;
+	fill:#3B93E2;
 	transition: fill 0.5s;
 }
 .hook:hover .hookBodyH{
-	fill:#102D09;
+	fill:#4AABF4;
 	transition: fill 0.5s;
 }
 .hook:hover .hookHead{
-	fill:#102D09;
+	fill:#9CACB5;
 	transition: fill 0.5s;
 }
 .hook:hover .hookHeadH{
-	fill:#102D09;
+	fill:#BACFD8;
 	transition: fill 0.5s;
 }
 .hook:hover .hookBodyS{
-	fill:#102D09;
+	fill:#1E547C;
 	transition: fill 0.5s;
 }
 .hook:hover .hookHeadS{
-	fill:#102D09;
+	fill:#7CBC93;
 	transition: fill 0.5s;
 }
 .ice{
@@ -222,88 +227,90 @@
 	transition: transform 0.75s;
 }
 .ice:hover .iceStick{
-	fill:#102D09;
+	fill:#D68922;
 	transition: fill 0.5s;
 }
 .ice:hover .iceStickH{
-	fill:#102D09;
+	fill:#F9A541;
 	transition: fill 0.5s;
 }
 .ice:hover .iceBase{
-	fill:#102D09;
+	fill:#1ADBE5;
 	transition: fill 0.5s;
 }
 .ice:hover .iceBaseS{
-	fill:#102D09;
+	fill:#08A0B5;
 	transition: fill 0.5s;
 }
 .ice:hover .iceBaseH{
-	fill:#102D09;
+	fill:#47EFFC;
 	transition: fill 0.5s;
 }
 .potion{
 	width: 100px;
+	margin-top: 18px;
 }
 .potion:hover{
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
 .potion:hover .potionBase{
-	fill:#102D09;
+	fill:#E5361F;
 	transition: fill 0.5s;
 }
 .potion:hover .potionBaseH{
-	fill:#102D09;
+	fill:#FC3A06;
 	transition: fill 0.5s;
 }
 .potion:hover .potionBaseS{
-	fill:#102D09;
+	fill:#871D08;
 	transition: fill 0.5s;
 }
 .potion:hover .potionBottle{
-	fill:#102D09;
+	fill:#D2F0F9;
 	transition: fill 0.5s;
 }
 .potion:hover .potionBottleH{
-	fill:#102D09;
+	fill:#F4F8F9;
 	transition: fill 0.5s;
 }
 .potion:hover .potionCork{
-	fill:#102D09;
+	fill:#D68922;
 	transition: fill 0.5s;
 }
 .potion:hover .potionCorkH{
-	fill:#102D09;
+	fill:#F9A541;
 	transition: fill 0.5s;
 }
 .sword{
 	width: 100px;
+	margin-top: 13px;
 }
 .sword:hover{
 	transform: scale(1.1);
 	transition: transform 0.75s;
 }
 .sword:hover .swordBlade{
-	fill:#102D09;
+	fill:#EDEDED;
 	transition: fill 0.5s;
 }
 .sword:hover .swordBladeS{
-	fill:#102D09;
+	fill:#CECECE;
 	transition: fill 0.5s;
 }
 
 .sword:hover .swordHandle{
-	fill:#102D09;
+	fill:#544CED;
 	transition: fill 0.5s;
 }
 
 .sword:hover .swordHandleH{
-	fill:#102D09;
+	fill:#8F64F9;
 	transition: fill 0.5s;
 }
 
 .sword:hover .swordHandleS{
-	fill:#102D09;
+	fill:#4141BF;
 	transition: fill 0.5s;
 }
 
