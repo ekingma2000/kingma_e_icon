@@ -314,4 +314,9 @@
 	transition: fill 0.5s;
 }
 
+.selected {
+	fill: red;
+	transform: scale(1.1);
+}
+
 
