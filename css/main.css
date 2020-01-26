@@ -315,8 +315,11 @@
 }
 
 .selected {
-	fill: red;
-	transform: scale(1.1);
+	fill: black;
+
+}
+.selected::after {
+	content: "\2713";
 }
 
 
